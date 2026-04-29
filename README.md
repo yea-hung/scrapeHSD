@@ -1,22 +1,16 @@
-# Description
+## Description
 
 An R package for scraping facility data from the [Homeless Shelter Directory](https://www.homelessshelterdirectory.org/).  
 
-# Installation
+## Installation
 
-Install *devtools* if you don't already have it:
-
-```r
-install.packages('devtools')
-```
-
-Install the *scrapeHSD* package:
+To install the package, use `install_github()` from the *remotes* package or `pkg_install()` from the *pak* package:
 
 ```r
-devtools::install_github('yea-hung/scrapeHSD')
+pak::pkg_install('yea-hung/scrapeHSD')
 ```
 
-# Use
+## Use
 
 Specify `state_name` and `state_abbreviation` in `scrape_hsd()`. For example:
 
